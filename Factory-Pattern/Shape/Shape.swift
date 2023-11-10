@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class Square: FactoryProtocol {
+class Square: ViewProtocol {
     var height: Int
     var view: UIView
     var parentView: UIView

@@ -14,7 +14,7 @@
 		F43953772AFA62720058B811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43953762AFA62720058B811 /* Assets.xcassets */; };
 		F439537A2AFA62720058B811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43953782AFA62720058B811 /* LaunchScreen.storyboard */; };
 		F43953862AFA65930058B811 /* Double+UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43953852AFA65930058B811 /* Double+UIColor+Ext.swift */; };
-		F43953892AFA67C40058B811 /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43953882AFA67C40058B811 /* FactoryProtocol.swift */; };
+		F43953892AFA67C40058B811 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43953882AFA67C40058B811 /* ViewProtocol.swift */; };
 		F439538D2AFA686F0058B811 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439538C2AFA686F0058B811 /* Shape.swift */; };
 		F439538F2AFA6AEE0058B811 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439538E2AFA6AEE0058B811 /* ShapeFactory.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		F43953792AFA62720058B811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F439537B2AFA62720058B811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43953852AFA65930058B811 /* Double+UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+UIColor+Ext.swift"; sourceTree = "<group>"; };
-		F43953882AFA67C40058B811 /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
+		F43953882AFA67C40058B811 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
 		F439538C2AFA686F0058B811 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		F439538E2AFA6AEE0058B811 /* ShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +113,7 @@
 		F43953872AFA67900058B811 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				F43953882AFA67C40058B811 /* FactoryProtocol.swift */,
+				F43953882AFA67C40058B811 /* ViewProtocol.swift */,
 				F439538E2AFA6AEE0058B811 /* ShapeFactory.swift */,
 			);
 			path = Factory;
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43953892AFA67C40058B811 /* FactoryProtocol.swift in Sources */,
+				F43953892AFA67C40058B811 /* ViewProtocol.swift in Sources */,
 				F43953722AFA62710058B811 /* ViewController.swift in Sources */,
 				F439536E2AFA62710058B811 /* AppDelegate.swift in Sources */,
 				F43953862AFA65930058B811 /* Double+UIColor+Ext.swift in Sources */,

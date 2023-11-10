@@ -15,7 +15,7 @@ class ShapeFactory {
         self.parentView = parentView
     }
     
-    func create(as shape: Shapes) -> FactoryProtocol {
+    func create(as shape: Shapes) -> ViewProtocol {
         switch shape {
         case .square:
             let square = Square(parentView: parentView)
@@ -35,7 +35,7 @@ func createShape(_ shape: Shapes, on view: UIView) {
     shapeFactory.create(as: shape).display()
 }
 
-func getShape(_ shape: Shapes, on view: UIView) -> FactoryProtocol {
+func getShape(_ shape: Shapes, on view: UIView) -> ViewProtocol {
     let shapeFactory = ShapeFactory(parentView: view)
     return shapeFactory.create(as: shape)
 }
